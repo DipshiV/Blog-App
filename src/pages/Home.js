@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
-import { getDocs ,collection, deleteDoc,doc} from "firebase/firestore"
+import { getDocs ,collection, deleteDoc,doc} from "firebase/firestore";
+import { AiFillDelete } from "react-icons/ai";
 import { db, auth } from "../firebase-config";
 
 const Home = ({isAuth}) => {
@@ -48,7 +49,7 @@ const Home = ({isAuth}) => {
         {isAuth && post.author.id === auth.currentUser.uid && (
             <button onClick={() =>{
                 deletePost(post.id)
-            }}> &#128465;</button>
+            }}> <AiFillDelete/></button>
         )}
        
         </div>
