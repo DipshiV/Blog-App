@@ -172,7 +172,7 @@ textarea {
 }
 
 .deletePost button {
-  border: none;
+  border: blue;
 
   background: none;
   font-size: 30px;
