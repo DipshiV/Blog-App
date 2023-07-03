@@ -1,3 +1,5 @@
+# Overview of this project
+This is a simple bloag app in react.js and firebase .I have used here  firebase for login authentication from google  and when we create Post it is saving in firebase store .  and on the basis of login credential perticular  user can delete thier post only . and it is deleting from firebase store also.we can add create post from any number of user .
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
